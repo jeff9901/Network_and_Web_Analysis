@@ -35,7 +35,7 @@ def try_connection():
 while True:
     time_now = datetime.now()
     read_time = time_now.strftime('%m/%d/%Y, %H:%M:%S')
-    file = open('C:\\Users\KK\Desktop\Log_file.txt', 'a')
+    file = open('C:\\Enter\file\Location\Log_file.txt', 'a')
     
     current = try_connection()
     
